@@ -1,21 +1,42 @@
-body {
-    width: 500px;
-    text-align: center;
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+  }
+
+main {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    margin: 5vh;
+}
+
 h1 {
     border: 2px dotted rgb(161, 24, 161);
     border-radius: 25px;
     padding: 5px 5px 5px 5px;
     }
+
 p {
+    display: grid;
         border: 2px solid tomato;
         padding: 20px;
     }
+
     h2 {
         border: 3px solid purple;
         border-radius: 25px;
         box-shadow: 0px 3px 10px rgb(161, 24, 161);;
     }
+
     h3 {
         border: 2px solid rgb(161, 24, 161);
         border-radius: 20px;       
@@ -23,6 +44,7 @@ p {
         border-width: 15px;
         padding: 8px;
     }
+
         li {
 			border-bottom: 3px solid rgb(133, 6, 6);
 		}
